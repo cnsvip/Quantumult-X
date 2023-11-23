@@ -7,11 +7,11 @@
 
 [rewrite_local]
 
-^https?:\/\/.*\.(taozhi\.com|taozhi\.cn) url script-response-body https://raw.githubusercontent.com/cnsvip/Quantumult-X/dev/taozhivip.js
+^https?:\/\/.*\.(taozhi\.*|taozhi\.cn) url script-response-body https://raw.githubusercontent.com/cnsvip/Quantumult-X/dev/taozhivip.js
 
 [mitm] 
 
-hostname = *.taozhi.cn
+hostname = *.taozhi.*
 
 *************************************/
 
