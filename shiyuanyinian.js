@@ -19,7 +19,8 @@ var ojbk = JSON.parse($response.body);
 const vipa = '/api/v1/user/coupon/check';
 
 if ($request.url.indexOf(vipa) != -1){
-  ojbk.data = {
+  ojbk = {
+  "data" : {
     "id" : 2,
     "limit_period" : null,
     "created_at" : 1696486320,
@@ -36,7 +37,8 @@ if ($request.url.indexOf(vipa) != -1){
     "limit_use_with_user" : 1,
     "ended_at" : 1984543883,
     "name" : "白嫖9.9加群折扣券"
-  };
+  }
+};
 }
 
 $done({body : JSON.stringify(ojbk)});
