@@ -1,6 +1,6 @@
 /******************************
 
-淘知测试
+十元一年
 
 
 *******************************
@@ -24,7 +24,7 @@ if ($request.url.indexOf(vipa) != -1){
     "limit_period" : null,
     "created_at" : 1696486320,
     "type" : 1,
-    "value" : 300,
+    "value" : 2990,
     "code" : "ZKeELbIs",
     "show" : 1,
     "limit_use" : null,
