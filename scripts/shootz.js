@@ -7,7 +7,7 @@
 
 [rewrite_local]
 
-^https?:\/\/.*\.(shootz\.*|shootz\.tech) url script-response-body https://github.com/cnsvip/Quantumult-X/blob/main/scripts/shootz.js
+^https?:\/\/.*\.(shootz\.*|shootz\.tech) url script-response-body https://raw.githubusercontent.com/cnsvip/Quantumult-X/refs/heads/main/scripts/shootz.js
 
 [mitm] 
 
