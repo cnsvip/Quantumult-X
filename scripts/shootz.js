@@ -23,6 +23,8 @@ const vipa = '/user-api/mini/user/info';
 if ($request.url.indexOf(vipa) != -1){
     ojbk.topVip = true;
   ojbk.arenaVip = true;
+    ojbk.arenaVipExpireTime ="2030-01-01 00:00:00";
+ojbk.expireTime ="2030-01-01 00:00:00";
 }
 
 
