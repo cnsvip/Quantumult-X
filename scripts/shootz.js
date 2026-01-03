@@ -16,8 +16,8 @@ hostname = *.shootz.*
 *************************************/
 
 var ojbk = JSON.parse($response.body);
-const vipa = '/user-api/mini/user/info';
-const vipb = '/payment-api/mini/vip/video';
+const vipa = '/user/info';
+const vipb = '/vip/video';
 
 
 
