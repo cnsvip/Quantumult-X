@@ -34,6 +34,7 @@ if ($request.url.indexOf(vipa) != -1){
     ojbk.ptzVipExpiredDays = -1;
 
     ojbk.vipLevel = 1;
+    ojbk.vipArenaId = 203;
 }
 
 if ($request.url.indexOf(vipb) != -1){
