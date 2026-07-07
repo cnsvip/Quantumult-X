@@ -32,6 +32,8 @@ if ($request.url.indexOf(vipa) != -1){
     ojbk.vipExpiredFlag = -1;
     ojbk.ptzVipExpireDate = "2030-01-01 00:00:00";
     ojbk.ptzVipExpiredDays = -1;
+
+    ojbk.vipLevel = 1;
 }
 
 if ($request.url.indexOf(vipb) != -1){
